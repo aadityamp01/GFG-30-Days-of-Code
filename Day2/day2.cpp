@@ -1,10 +1,10 @@
-// Problem Statement : Given a positive integer N. You have to find Nth natural number after removing all
-// the numbers containing digit 9.
+// Problem Statement : Nth Natural Number..
 // Refer day2 text file for full problem statement.
 
 //Initial Template for C++
 
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 //User function Template for C++
@@ -24,8 +24,8 @@ class Solution{
         long long ans = 0;
         for(int i=v.size()-1;i>=0;i--) ans = ans*10+v[i];
         return ans;
-            }
-        };
+    }
+};
 
 // { Main Code Starts
 int main()
@@ -43,3 +43,10 @@ int main()
 }
 
 // } End
+
+//Output Win
+/* 
+For Input:
+8
+your output is: 
+8 */

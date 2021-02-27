@@ -32,4 +32,5 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 1012 
 
-Referance tag:- (Mathematics)
+Difficulty: Easy
+Referance tag:- Mathematics
